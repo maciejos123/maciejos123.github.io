@@ -1,0 +1,111 @@
+body
+{
+	background-color: #191d21;
+	font-size: 20px;
+	color: #efefef;
+}
+
+.intro
+{
+	margin-top:50px;
+	height:150px;
+text-align:center;
+}
+
+.square
+{
+	width: 25px;
+    height: 25px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+	position: relative;
+}
+@keyframes example {
+	0%   {background-color: red; left:540px; top:50px;}
+    10%  {background-color: blue; left:540px; top:120px; }
+	15%  {background-color: blue; left:540px; top:120px;}
+    50%  {background-color: green; left:950px; top:120px;}
+	55%  {background-color: green; left:950px; top:120px;}
+    65%  {background-color: yellow; left:950px; top:50px; }
+	70%  {background-color: yellow; left:950px; top:50px; }
+    100% {background-color: red; left:540px; top:50px;}
+}
+
+.socialdivs
+{
+	width:1000px;
+	height:250px;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+.fb
+{
+	float:left;
+	width:250px;
+	height:150px;
+}
+.fb:hover
+{
+	background-color:#4668b1;
+	
+}
+.fb:hover .icon-facebook-squared:before
+{
+	margin-left:70px;
+	margin-top:20px;	
+	font-size:120px;
+	opacity:1;
+}
+.yt
+{
+	float:left;
+	width:250px;
+	height:150px;
+}
+.yt:hover{
+background-color:#d93348;
+
+}
+.yt:hover .icon-youtube-play:before
+{
+	margin-left:70px;
+	margin-top:20px;	
+	font-size:120px;
+	opacity:1;
+}
+.tw
+{
+	float:left;
+	width:250px;
+	height:150px;
+}
+.tw:hover{
+background-color:#3085d3;	
+}
+.tw:hover .icon-twitter:before
+{
+	margin-left:70px;
+	margin-top:20px;	
+	font-size:120px;
+	opacity:1;
+}
+
+.gplus
+{
+	float:left;
+	width:250px;
+	height:150px;
+}
+.gplus:hover{
+background-color:#d95433;	
+}
+.gplus:hover .icon-gplus-circled:before
+{
+	margin-left:70px;
+	margin-top:20px;	
+	font-size:120px;
+	opacity:1;
+}
