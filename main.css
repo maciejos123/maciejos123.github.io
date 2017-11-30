@@ -14,8 +14,8 @@ text-align:center;
 
 .square
 {
-	width: 25px;
-    height: 25px;
+	width: 40px;
+    height: 40px;
     background-color: red;
     animation-name: example;
     animation-duration: 4s;
@@ -23,14 +23,14 @@ text-align:center;
 	position: relative;
 }
 @keyframes example {
-	0%   {background-color: red; left:540px; top:50px;}
-    10%  {background-color: blue; left:540px; top:120px; }
-	15%  {background-color: blue; left:540px; top:120px;}
-    50%  {background-color: green; left:950px; top:120px;}
-	55%  {background-color: green; left:950px; top:120px;}
-    65%  {background-color: yellow; left:950px; top:50px; }
-	70%  {background-color: yellow; left:950px; top:50px; }
-    100% {background-color: red; left:540px; top:50px;}
+	0%   {background-color: red; left:32%; top:20px;}
+    10%  {background-color: blue; left:32%; top:150px; }
+	15%  {background-color: blue; left:32%; top:150px;}
+    50%  {background-color: green; left:64%; top:150px;}
+	55%  {background-color: green; left:64%; top:150px;}
+    65%  {background-color: yellow; left:64%; top:20px; }
+	70%  {background-color: yellow; left:64%; top:20px; }
+    100% {background-color: red; left:32%; top:20px;}
 }
 
 .socialdivs
